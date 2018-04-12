@@ -2,25 +2,13 @@
     "name": "tebie6/yii2-wx",
     "description": "一个专注于yii2的微信sdk 出自abei2017 在基础上添加 APP支付",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","wechat"],
-    "homepage": "https://github.com/tebie6/yii2-wx",
+    "license": "MIT",
     "authors": [
         {
-            "name": "tebie6",
+            "name": "liumingyu",
             "email": "liumingyuphp@163.com"
         }
     ],
-    "require": {
-        "php": ">=5.4",
-        "yiisoft/yii2-httpclient": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "abei2017\\wx\\": "src"
-        }
-    },
-    "repositories": [{
-        "type": "git",
-        "url": "git@github.com:tebie6/yii2-wx.git"
-    }]
+    "minimum-stability": "dev",
+    "require": {}
 }
